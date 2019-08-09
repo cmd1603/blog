@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Chris Davila</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -59,7 +59,7 @@
             }
 
             .m-b-md {
-                margin-bottom: 30px;
+                margin-bottom: 10px;
             }
         </style>
     </head>
@@ -81,17 +81,15 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Chris Davila
                 </div>
-
+                <div style="margin-bottom: 10px"><img src="/img/codeup_photo.jpeg" alt="Profile Photo" style="border-radius: 50%; width: 200px"></div>
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://laravel.com/docs">About</a>
+                    <a href="https://laracasts.com">Portfolio</a>
+                    <a href="https://laravel-news.com">Blog</a>
+                    <a href="https://blog.laravel.com">Social Media</a>
+                    <a href="https://nova.laravel.com">Contact</a>
                 </div>
             </div>
         </div>
