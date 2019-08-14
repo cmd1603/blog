@@ -19,6 +19,6 @@
 
 <hr>
 <div class="col">
-	<p>{{ $post->content }}</p>
+	<p>{!! $post->content !!}</p>
 </div>
 @stop
