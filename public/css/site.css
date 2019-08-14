@@ -28,6 +28,10 @@ body {
 		max-width: 340px;
 	}	
 
+	.show_header {
+		margin-top: 10px;
+		font-size: 24px;
+	}
 }
 
 @media (min-width: 768px) {
@@ -51,8 +55,11 @@ body {
 		max-width: 500px;
 	}
 
-}
+	.show_header {
 
+	}
+
+}
 
 footer {
 	background-color: #8cb7f6;
@@ -63,3 +70,12 @@ footer {
 	height: 130px;
 	width: 100%;
 }
+
+.thumbnail {
+	border-radius: 50%; width: 40px; height: 40px; margin: 0 8px 0 0;
+}
+
+.date_of_pub {
+	color: #a1a09f; font-weight: lighter;
+}
+

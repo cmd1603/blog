@@ -3,10 +3,18 @@
 @section('content')
 <div class="row">
 	<div class="col">
-		<h1 class="text-center">{{ $post->title }}</h1>
-		<p class="text-center">{{ $post->created_at->format('M j, Y') }}&nbsp;&nbsp;</p>
+		<h3 class="show_header">{{ $post->title }}</h3>
 	</div>
 </div>
+<div class="row">
+	<div class="col">		
+		<a href="#" class="text-center">
+			<img class="thumbnail" src="/img/thumbnail_pic.jpg">
+		</a>
+		<span>by Chris Davila</span>
+	</div>	
+</div>
+<div class="col row date_of_pub">{{ $post->created_at->format('M j, Y') }}&nbsp;&nbsp;</div>
 <div class="row">
 @if($post->img_path)
 	<div class="col text-center">
