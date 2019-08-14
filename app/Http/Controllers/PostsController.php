@@ -65,10 +65,12 @@ class PostsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Request $request, $id)
     {
+        $users = User::all();
+        $user = $users[0];
         $post = Post::findOrFail($id);
-        return view('posts.show', compact('post'));
+        return view('posts.show')->with('post', $post)->with('user', $user);
     }
 
     /**

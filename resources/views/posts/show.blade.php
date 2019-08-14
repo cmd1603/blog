@@ -9,7 +9,7 @@
 <div class="row">
 	<div class="col">		
 		<a href="#" class="text-center">
-			<img class="thumbnail" src="/img/thumbnail_pic.jpg">
+			<img class="thumbnail" src="{{ '/img/' . $user->img_path }}">
 		</a>
 		<span>by Chris Davila</span>
 	</div>	
