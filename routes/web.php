@@ -20,8 +20,8 @@ Route::get('/sayhello/{name}', function($name)
     if ($name == "Chris") {
         return Redirect::to('/');
     }
-
-    return view('my-first-view');
+    $data = array('name' => $name);
+    return view('my-first-view')->with($data);
 });
 
 Route::get('/saydice/{guess}', function($guess)
@@ -36,3 +36,20 @@ Route::get('/saydice/{guess}', function($guess)
 });
 
 Route::resource('posts', 'PostsController');
+
+Route::get('orm-test', function()
+{
+	$post1 = new \App\Post();
+	$post1->title = 'Eloquent is awesome!';
+	$post1->url='https://laravel.com/docs/5.1/eloquent';
+	$post1->content  = 'It is super easy to create a new post.';
+	$post1->created_by = 1;
+	$post1->save();
+
+	$post2 = new \App\Post();
+	$post2->title = 'Eloquent is really easy!';
+	$post2->url='https://laravel.com/docs/5.1/eloquent';
+	$post2->content = 'It is super easy to create a new post.';
+	$post2->created_by = 2;
+	$post2->save();	
+});

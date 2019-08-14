@@ -81,15 +81,15 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Chris Davila
+                    chris davila
                 </div>
                 <div style="margin-bottom: 10px"><img src="/img/codeup_photo.jpeg" alt="Profile Photo" style="border-radius: 50%; width: 200px"></div>
                 <div class="links">
-                    <a href="https://laravel.com/docs">About</a>
-                    <a href="https://laracasts.com">Portfolio</a>
-                    <a href="https://laravel-news.com">Blog</a>
-                    <a href="https://blog.laravel.com">Social Media</a>
-                    <a href="https://nova.laravel.com">Contact</a>
+                    <a href="https://laravel.com/docs">about</a>
+                    <a href="https://laracasts.com">portfolio</a>
+                    <a href="http://blog.test/posts">blog</a>
+                    <a href="https://blog.laravel.com">social media</a>
+                    <a href="https://nova.laravel.com">contact</a>
                 </div>
             </div>
         </div>
