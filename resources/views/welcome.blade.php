@@ -87,7 +87,7 @@
                 <div class="links">
                     <a href="https://laravel.com/docs">about</a>
                     <a href="https://laracasts.com">portfolio</a>
-                    <a href="http://blog.test/posts">blog</a>
+                    <a href="{{ url('posts') }}">blog</a>
                     <a href="https://blog.laravel.com">social media</a>
                     <a href="https://nova.laravel.com">contact</a>
                 </div>
