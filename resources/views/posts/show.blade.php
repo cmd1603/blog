@@ -15,6 +15,7 @@
 	</div>	
 </div>
 <div class="col row date_of_pub">{{ $post->created_at->format('M j, Y') }}&nbsp;&nbsp;</div>
+<hr>
 <div class="row">
 @if($post->img_path)
 	<div class="col text-center">

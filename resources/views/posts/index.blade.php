@@ -5,8 +5,7 @@
 
 @section('content')
 	<h1 class="text-center">Posts</h1>
-	<br>
-	
+	<hr>
 	@foreach($posts as $post)
 	<div class="row">
 		<div class="col text-center">

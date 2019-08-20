@@ -7,6 +7,18 @@ body {
 	padding-bottom: 140px;
 }
 
+h1 {
+	margin-top: 20px;
+	font-family: unset;
+	font-weight: 100;
+}
+
+p {
+    font-size: 17px;
+    line-height: 26px;
+    font-family: Georgia, sans-serif;
+}
+
 @media (max-width: 767px) {
 	.posts_title {
 		color: #000000;
@@ -56,19 +68,19 @@ body {
 	}
 
 	.show_header {
-
+		margin-top: 10px;
 	}
 
 }
 
 footer {
-	background-color: #8cb7f6;
-	border-top: 3px solid #333132;
+	background-color: darkgrey;
 	padding: 30px 0;
 	position: absolute;
 	bottom: 0;
 	height: 130px;
 	width: 100%;
+	box-shadow: #817979 0px 0px 5px;
 }
 
 .thumbnail {
@@ -77,5 +89,9 @@ footer {
 
 .date_of_pub {
 	color: #a1a09f; font-weight: lighter;
+}
+
+.navbar-toggler {
+	background-color: seashell;
 }
 

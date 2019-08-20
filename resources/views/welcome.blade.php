@@ -85,11 +85,11 @@
                 </div>
                 <div style="margin-bottom: 10px"><img src="/img/codeup_photo.jpeg" alt="Profile Photo" style="border-radius: 50%; width: 200px"></div>
                 <div class="links">
-                    <a href="https://laravel.com/docs">about</a>
-                    <a href="https://laracasts.com">portfolio</a>
+                    <a>about</a>
+                    <a>portfolio</a>
                     <a href="{{ url('posts') }}">blog</a>
-                    <a href="https://blog.laravel.com">social media</a>
-                    <a href="https://nova.laravel.com">contact</a>
+                    <a>social media</a>
+                    <a>contact</a>
                 </div>
             </div>
         </div>
